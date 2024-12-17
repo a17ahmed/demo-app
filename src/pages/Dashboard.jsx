@@ -1,7 +1,9 @@
 const Dashboard = () => {
     return (
-        <div>Dashboard</div>
+        <div className='tw-w-full tw-border'>
+            
+        </div>
     )
 }
 
-export default Dashboard;
+export default Dashboard
