@@ -1,5 +1,4 @@
-
-import './App.css'
+import './variables.css'
 import Header from "./layouts/Header"
 
 function App() {
