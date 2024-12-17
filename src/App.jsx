@@ -7,10 +7,8 @@ function App() {
 
   return (
     <>
-
       <Header />
       <BlackBook />
-      <h1 className='text-green-400'>hello</h1>
     </>
   )
 }
