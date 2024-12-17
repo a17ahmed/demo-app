@@ -1,14 +1,15 @@
 import './variables.css'
 import Header from "./layouts/Header"
+import AppRoute from './routes/AppRoute';
 
 function App() {
 
 
   return (
-    <>
+    <div className="tw-w-full tw-h-screen tw-bg-secondary">
       <Header />
-      <h1 className='text-green-400'>hello</h1>
-    </>
+      <AppRoute />
+    </div>
   )
 }
 
