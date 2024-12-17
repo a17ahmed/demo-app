@@ -12,7 +12,7 @@ const Main = () => {
                     <Sidebar />
                 </div>
 
-                <div className='tw-col-span-10 tw-w-[84%]'>
+                <div className='tw-col-span-10 tw-overflow-hidden xl:tw-w-[84%]'>
                     <Outlet />
                 </div>
             </div>
