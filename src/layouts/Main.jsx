@@ -7,7 +7,7 @@ const Main = () => {
         <>
             <Header />
 
-            <div className='tw-w-full tw-flex tw-gap-6 tw-p-4'>
+            <div className='tw-w-full tw-flex tw-gap-6 tw-p-4 tw-overflow-hidden'>
                 <div className='tw-col-span-2 tw-px-2 tw-w-auto'>
                     <Sidebar />
                 </div>
