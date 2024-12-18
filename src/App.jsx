@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import './variables.css'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import PublicRoute from "./routes/public/PublicRoute";

@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 
 const Card = ({ companyName = "Company Name", cat = "Category", slogon = "Slogon" }) => {
 
