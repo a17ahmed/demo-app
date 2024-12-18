@@ -5,7 +5,7 @@ import { TbBrandWhatsappFilled } from "react-icons/tb";
 import { TiTick } from "react-icons/ti";
 import { IoNotifications } from "react-icons/io5";
 
-const Header = () => {
+const Header = ({ openedIn }) => {
     return (
         <div className="tw-flex  tw-bg-[var(--first-color)] tw-justify-between tw-items-center tw-p-2 tw-px-4">
             <div className="tw-flex tw-flex-col tw-justify-start">
@@ -19,6 +19,7 @@ const Header = () => {
                     CHECK
                 </span>
             </div>
+
             <div className="tw-flex tw-items-center tw-text-[0.9rem] tw-text-gray-400">
                 <span > We`re always just a Whatsapp away </span>
                 <div className="tw-flex tw-items-center tw-px-1 tw-gap-1 tw-flex-row tw-text-primary">
@@ -32,20 +33,23 @@ const Header = () => {
                     <SiLinkedin />
                 </div>
             </div>
-            <div className="tw-flex tw-items-center tw-flex-row tw-gap-5">
-                <IoNotifications className="tw-size-5 tw-text-white" />
-                <div className="tw-flex tw-flex-row tw-items-center tw-gap-3 tw-rounded-md tw-border tw-border-white tw-self-start tw-px-2 tw-py-1">
-                    <img src="https://s3-alpha-sig.figma.com/img/37a6/8822/fbe7eceec076c92488af0c9c01d44d72?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KjiXBzycIiDCQfnXvMGia8R6WcIMtokEJMi5WNgDt3p6slRsBcgL-QCs5KA77fAojazn~DrciYa3WeY9PDnp6xMjmBR-tvoaxcpxApsRj09dRtHpauXg2BjmQjMfYRfzHLODjQVNInmLAKvomefXeKVoFdXgNcKpjWsTaW1ooeAJQrEtGWF-rj8uo1FR3zQyEwfJVoYE-UaR~YSxI4ADIJDChEkgOtgo8BV0lF-W4M6mWiHtwvlV~EukBUZhzzx2wK8O9GqW4neESGy5Ei~ZNaGuNEm91rYUiDi8lCkW7jRqtf-lUumFqQUiqyLPZ~U~aUJWEk~5SwS0vvupKuGSeQ__" alt="" className="tw-rounded-full tw-size-9 tw-object-cover" />
-                    <div className="tw-flex tw-flex-col tw-text-xs tw-text-white">
-                        <span>
-                            LIAM KETLY
-                        </span>
-                        <span>
-                            KAIMLETLY@GMAIL.COM
-                        </span>
+
+            {openedIn !== "login" && (
+                <div className="tw-flex tw-items-center tw-flex-row tw-gap-5">
+                    <IoNotifications className="tw-size-5 tw-text-white" />
+                    <div className="tw-flex tw-flex-row tw-items-center tw-gap-3 tw-rounded-md tw-border tw-border-white tw-self-start tw-px-2 tw-py-1">
+                        <img src="https://s3-alpha-sig.figma.com/img/37a6/8822/fbe7eceec076c92488af0c9c01d44d72?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KjiXBzycIiDCQfnXvMGia8R6WcIMtokEJMi5WNgDt3p6slRsBcgL-QCs5KA77fAojazn~DrciYa3WeY9PDnp6xMjmBR-tvoaxcpxApsRj09dRtHpauXg2BjmQjMfYRfzHLODjQVNInmLAKvomefXeKVoFdXgNcKpjWsTaW1ooeAJQrEtGWF-rj8uo1FR3zQyEwfJVoYE-UaR~YSxI4ADIJDChEkgOtgo8BV0lF-W4M6mWiHtwvlV~EukBUZhzzx2wK8O9GqW4neESGy5Ei~ZNaGuNEm91rYUiDi8lCkW7jRqtf-lUumFqQUiqyLPZ~U~aUJWEk~5SwS0vvupKuGSeQ__" alt="" className="tw-rounded-full tw-size-9 tw-object-cover" />
+                        <div className="tw-flex tw-flex-col tw-text-xs tw-text-white">
+                            <span>
+                                LIAM KETLY
+                            </span>
+                            <span>
+                                KAIMLETLY@GMAIL.COM
+                            </span>
+                        </div>
                     </div>
-                </div>
-            </div>
+                </div>)
+            }
         </div>
     )
 }
