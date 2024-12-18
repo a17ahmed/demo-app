@@ -49,7 +49,7 @@ const BlackBook = () => {
 
     return (
         <div className="tw-flex tw-self-start tw-bg-secondary tw-justify-end tw-p-2">
-            <div className="tw-grid tw-grid-cols-2 tw-gap-1">
+            <div className="tw-grid tw-grid-cols-2 tw-gap-3">
                 {cardsData.map((card, index) => (
                     <Card
                         key={index}
