@@ -8,7 +8,7 @@ const Card = ({ companyName = "Company Name", cat = "Category", slogon = "Slogon
         <div className="tw-flex tw-bg-black tw-p-4 tw-rounded-xl tw-items-center tw-h-[150px]">
 
             <img src="https://s3-alpha-sig.figma.com/img/37a6/8822/fbe7eceec076c92488af0c9c01d44d72?Expires=1735516800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=KjiXBzycIiDCQfnXvMGia8R6WcIMtokEJMi5WNgDt3p6slRsBcgL-QCs5KA77fAojazn~DrciYa3WeY9PDnp6xMjmBR-tvoaxcpxApsRj09dRtHpauXg2BjmQjMfYRfzHLODjQVNInmLAKvomefXeKVoFdXgNcKpjWsTaW1ooeAJQrEtGWF-rj8uo1FR3zQyEwfJVoYE-UaR~YSxI4ADIJDChEkgOtgo8BV0lF-W4M6mWiHtwvlV~EukBUZhzzx2wK8O9GqW4neESGy5Ei~ZNaGuNEm91rYUiDi8lCkW7jRqtf-lUumFqQUiqyLPZ~U~aUJWEk~5SwS0vvupKuGSeQ__" alt="" className="tw-rounded-md tw-size-14 tw-object-cover" />
-            
+
             <div className="tw-flex tw-flex-col tw-justify-start tw-pl-2 tw-pr-3">
                 <div className="tw-flex tw-flex-row tw-text-white tw-items-center tw-gap-2">
                     <span className="tw-text-lg tw-font-semibold">{companyName}</span>
@@ -18,7 +18,7 @@ const Card = ({ companyName = "Company Name", cat = "Category", slogon = "Slogon
                 <span className="tw-text-sm tw-text-gray-400">{slogon}</span>
 
                 <div className="tw-flex tw-flex-wrap tw-text-xs tw-text-white">
-                   Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, vero distinctio velit praesentium quisquam repellendus doloribus excepturi necessitatibus amet quam voluptates nostrum voluptatum perferendis eius laudantium architecto sint, doloremque
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Optio, vero distinctio velit praesentium quisquam repellendus doloribus excepturi necessitatibus amet quam voluptates nostrum voluptatum perferendis eius laudantium architecto sint, doloremque
                 </div>
             </div>
 

@@ -209,4 +209,4 @@ const BlackBook = () => {
     )
 }
 
-export default BlackBook
+export default BlackBook;
