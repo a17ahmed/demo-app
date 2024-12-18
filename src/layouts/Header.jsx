@@ -5,6 +5,7 @@ import { TbBrandWhatsappFilled } from "react-icons/tb";
 import { TiTick } from "react-icons/ti";
 import { IoNotifications } from "react-icons/io5";
 
+// eslint-disable-next-line react/prop-types
 const Header = ({ openedIn }) => {
     return (
         <div className="tw-flex  tw-bg-[var(--first-color)] tw-justify-between tw-items-center tw-p-2 tw-px-4">

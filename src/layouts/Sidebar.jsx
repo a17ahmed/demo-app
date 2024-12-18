@@ -78,7 +78,11 @@ const SideBar = () => {
                     <FaCog className={iconClass} />
                     Settings
                 </li>
-                <li className={liClass} onClick={() => alert("Clicked")}>
+                <li className={liClass} onClick={() => {
+                   navigate("/", { replace: true }); 
+                    navigate("/")
+                    
+                    }}>
                     <FaSignOutAlt className={iconClass} />
                     Logout
                 </li>
