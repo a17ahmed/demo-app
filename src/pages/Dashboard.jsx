@@ -52,12 +52,12 @@ const Dashboard = () => {
   // );
 
   const notificationsData = [
-    { id: 1, image_url: "https://via.placeholder.com/150", text: "Download our new app!" },
-    { id: 2, image_url: "https://via.placeholder.com/150", text: "Be a man, take the property check survey" },
-    { id: 3, image_url: "https://via.placeholder.com/150", text: "Tile and Grout Cleaning and Sealing" },
-    { id: 4, image_url: "https://via.placeholder.com/150", text: "Tile and Grout Cleaning and Sealing" },
-    { id: 5, image_url: "https://via.placeholder.com/150", text: "Tile and Grout Cleaning and Sealing" },
-    { id: 6, image_url: "https://via.placeholder.com/150", text: "Tile and Grout Cleaning and Sealing" },
+    { id: 1, image_url: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSW0glvlNvjnfE7J-b9U4jfB2ByPSR3pYjgKxJKxONHeGZVaFyc", text: "Download our new app!" },
+    { id: 2, image_url: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSBk-CowQ0eYai-Bz-HFmu6zhq5fnFqO_mb5gjQePEv4t0Ab7JO", text: "Be a man, take the property check survey" },
+    { id: 3, image_url: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQN9thxBmLUrGxIeg6evni8kCSFtNb43BAUc-R7IcrQ0L_qu9el", text: "Tile and Grout Cleaning and Sealing" },
+    { id: 4, image_url: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2VwqkGtetQELNavBSp0C0mm7ueWTyTS9AeWcLjjr8Jx4mNjzf", text: "Tile and Grout Cleaning and Sealing" },
+    { id: 5, image_url: "https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcRe6_85dbd8IpaxTxp89XuS3eiF46TKu6bDI5JibfC_YuHbcDCv", text: "Tile and Grout Cleaning and Sealing" },
+    { id: 6, image_url: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRyT2im0y2Nh1hXyTQrw7u1l26hGEkmmST1w4j401cUOQyuQOmJ", text: "Tile and Grout Cleaning and Sealing" },
   ];
 
   return (
