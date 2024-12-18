@@ -35,7 +35,7 @@ const SideBar = () => {
 
     return (
         <div
-            className={`tw-flex tw-flex-col tw-justify-between tw-shadow-md tw-bg-[var(--fourth-color)] tw-rounded-xl tw-text-[var(--second-color)] tw-h-[84vh] tw-px-4 tw-py-4`}
+            className={`tw-flex tw-flex-col tw-justify-between tw-shadow-md tw-bg-[var(--fourth-color)] tw-rounded-xl tw-text-[var(--second-color)] tw-h-[84vh] tw-px-4 tw-py-4 tw-sticky tw-top-20`}
         >
             <div>
                 <div className='tw-bg-primary tw-text-center tw-rounded-md tw-py-1 tw-px-5 tw-mb-2 tw-text-lg tw-font-bold tw-text-nowrap'>

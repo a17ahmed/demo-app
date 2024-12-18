@@ -21,12 +21,29 @@ const PropertyCard = () => {
             details: "More details about the property go here.",
             date: "01/11/24",
         },
+        {
+            id: "#3232332",
+            description: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate, facere?",
+            details: "sit amet consectetur adipisicing elit. Cupiditate",
+            date: "27/09/24",
+        },
+        {
+            id: "#4545454",
+            description: "Another sample description for a property listing.",
+            details: "Some additional details about this property.",
+            date: "15/10/24",
+        },
+        {
+            id: "#6767676",
+            description: "Yet another description of a property listing.",
+            details: "More details about the property go here.",
+            date: "01/11/24",
+        },
     ];
 
     return (
         <div
-            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-            className="tw-mt-4 tw-overflow-auto tw-h-[24vh]"
+            className="tw-mt-4 tw-overflow-auto"
         >
             <div className="tw-grid tw-grid-cols-12 tw-bg-[var(--third-color)] tw-text-white">
                 <div className="tw-col-span-2 tw-pl-2 tw-border-r">Check</div>

@@ -52,8 +52,7 @@ const UpcomingCheck = () => {
 
     return (
         <div
-            style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-            className="tw-space-y-4 tw-overflow-auto tw-h-[26vh]"
+            className="tw-space-y-4"
         >
             {upcomingChecksData.map((check) => (
                 <div

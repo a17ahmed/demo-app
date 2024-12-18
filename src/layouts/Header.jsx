@@ -7,7 +7,7 @@ import { IoNotifications } from "react-icons/io5";
 
 const Header = ({ openedIn }) => {
     return (
-        <div className="tw-flex  tw-bg-[var(--first-color)] tw-justify-between tw-items-center tw-p-2 tw-px-4">
+        <div className="tw-flex  tw-bg-[var(--first-color)] tw-justify-between tw-items-center tw-p-2 tw-px-4 tw-sticky tw-top-0 tw-z-50">
             <div className="tw-flex tw-flex-col tw-justify-start">
                 <div className="tw-flex tw-self-start tw-gap-1 tw-select-none">
                     <div className="tw-bg-primary tw-font-bold tw-text-white tw-px-2">PROPERTY</div>
