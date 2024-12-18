@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 // const Dashboard = () => {
 //     return (
 //         <div className='tw-w-full tw-border'>
@@ -13,7 +14,8 @@
 
 import Notifications from "../components/Notifications";
 import PropertyCard from "../components/PropertyCard";
-import UpcomingChecks from "../components/upcomingChecks";
+import UpcomingCheck from "../components/UpcomingCheck";
+// import UpcomingChecks from "../components/upcomingChecks";
 
 
 const Dashboard = () => {
@@ -29,7 +31,7 @@ const Dashboard = () => {
 
   // return (
   //   <div className="tw-w-full tw-p-4 tw-bg-gray-800 tw-text-white">
-      // {/* Notifications */}
+  // {/* Notifications */}
   //     <Notifications />
 
   //     {/* Property List */}
@@ -53,6 +55,9 @@ const Dashboard = () => {
     { id: 1, image_url: "https://via.placeholder.com/150", text: "Download our new app!" },
     { id: 2, image_url: "https://via.placeholder.com/150", text: "Be a man, take the property check survey" },
     { id: 3, image_url: "https://via.placeholder.com/150", text: "Tile and Grout Cleaning and Sealing" },
+    { id: 4, image_url: "https://via.placeholder.com/150", text: "Tile and Grout Cleaning and Sealing" },
+    { id: 5, image_url: "https://via.placeholder.com/150", text: "Tile and Grout Cleaning and Sealing" },
+    { id: 6, image_url: "https://via.placeholder.com/150", text: "Tile and Grout Cleaning and Sealing" },
   ];
 
   return (
@@ -71,6 +76,26 @@ const Dashboard = () => {
         </p>
       </div>
       <Notifications initialNotifications={notificationsData} />
+
+      <div className="tw-grid tw-grid-cols-12 tw-gap-6">
+
+        <div className="tw-col-span-8 tw-mt-4">
+          <div className="tw-flex  tw-justify-between tw-items-center">
+            <span className=" tw-text-white">PROPERTIES(123)</span>
+            <span className="tw-text-green-600 ">VIEW ALL </span>
+          </div>
+          <PropertyCard/>
+        </div>
+
+        <div className="tw-col-span-3 tw-mt-4">
+        <div className="tw-flex  tw-justify-between tw-items-center">
+            <span className=" tw-text-white">PROPERTIES(123)</span>
+            <span className="tw-text-green-600 ">VIEW ALL </span>
+        </div>
+        <UpcomingCheck/>
+        </div>
+
+      </div>
 
 
     </div>

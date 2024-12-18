@@ -1,5 +1,5 @@
 
-const UpcommingCheck = () => {
+const UpcomingCheck = () => {
     return (
         <div className="tw-flex tw-flex-col tw-border tw-border-primary/30 tw-py-2 tw-px-1.5 tw-shadow tw-rounded-md">
             <div className="tw-flex tw-self-start tw-justify-center tw-items-center tw-text-[0.5rem] tw-px-2 tw-text-gray-400 tw-rounded-2xl tw-p-1 tw-bg-black/25">
@@ -19,4 +19,4 @@ const UpcommingCheck = () => {
     )
 }
 
-export default UpcommingCheck
+export default UpcomingCheck

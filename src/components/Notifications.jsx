@@ -1,3 +1,4 @@
+/* eslint-disable react/prop-types */
 import { useState } from "react";
 
 // Reusable Notifications Component
@@ -29,7 +30,7 @@ const Notifications = ({ initialNotifications }) => {
         </div>
 
         {/* Notifications Scrollable Container */}
-        <div className="tw-flex tw-overflow-x-auto tw-space-x-4">
+        <div className="tw-flex tw-overflow-x-auto tw-scrollbar-hide tw-space-x-4">
           {notifications.map((item) => (
             <div
               key={item.id}
