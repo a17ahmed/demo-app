@@ -46,7 +46,7 @@ const Notifications = ({ initialNotifications, propertyNotificationsData, isOpen
           {notifications.map((item) => (
             <div
               key={item.id}
-              className="tw-relative tw-bg-gray-700 tw-rounded-lg tw-min-w-[250px]"
+              className="tw-relative tw-bg-[var(--third-color)] tw-rounded-lg"
             >
               <button
                 onClick={() => closeNotification(item.id)}
@@ -54,14 +54,17 @@ const Notifications = ({ initialNotifications, propertyNotificationsData, isOpen
               >
                 &#x2715; {/* Close Button */}
               </button>
-              {isOpen === "propertyTip" ? <div className="tw-rounded-md tw-text-gray-400 tw-text-sm tw-p-2 tw-bg-black/25">
-                {item.text}
-              </div>
-                : <img
-                  src={item.image_url}
-                  alt="Notification"
-                  className="tw-w-full tw-h-36 tw-object-cover tw-rounded"
-                />}
+              {isOpen === "propertyTip" ?
+                <div className="tw-w-[300px] tw-h-20 tw-rounded-md tw-text-white tw-text-sm tw-p-2 tw-bg-black/25">
+                  {item.text}
+                </div>
+                : <div className="tw-w-[300px]">
+                  <img
+                    src={item.image_url}
+                    alt="Notification"
+                    className="tw-w-full tw-h-36 tw-object-cover tw-rounded"
+                  />
+                </div>}
 
             </div>
           ))}

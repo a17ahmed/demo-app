@@ -24,7 +24,7 @@ const PropertyTips = () => {
                     Visit our Blog
                 </div>
             </div>
-            <div>
+            <div className="tw-my-6">
                 <Notifications propertyNotificationsData={propertyNotificationsData} isOpen="propertyTip" />
             </div>
             <div className="tw-font-bold tw-text-white tw-mt-3 tw-text-sm">
