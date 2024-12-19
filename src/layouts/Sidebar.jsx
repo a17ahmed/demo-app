@@ -12,8 +12,8 @@ const SideBar = () => {
     const navData = [
         { icon: MdSpaceDashboard, title: 'Dashboard', page: 'dashboard' },
         { icon: FaBook, title: 'Black Book', page: 'black_book' },
-        { icon: FaInfoCircle, title: 'Property Tips' },
-        { icon: FaDollarSign, title: 'Make Money' },
+        { icon: FaInfoCircle, title: 'Property Tips', page: 'property_tip' },
+        { icon: FaDollarSign, title: 'Make Money', page: 'make_money' },
     ];
 
     // Update active icon based on the path
