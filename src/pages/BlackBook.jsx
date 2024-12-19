@@ -200,7 +200,7 @@ const BlackBook = () => {
 
             <div
                 style={{ scrollbarWidth: "none", msOverflowStyle: "none" }}
-                className="tw-grid tw-grid-cols-2 tw-gap-4 tw-max-h-[50vh] tw-overflow-auto tw-mt-4"
+                className="tw-grid tw-grid-cols-2 tw-gap-4 tw-fixed tw-overflow-y-auto tw-mt-4 tw-bottom-10 tw-top-72 tw-mr-8"
             >
                 {filteredServiceData.map((itm, idx) => <Card key={idx} companyName={itm.name} cat={itm.category} />)}
             </div>
